@@ -1,0 +1,21 @@
+Installation and requirements - Linux on the Windows Domain.
+
+Requirements:
+1. Running Ubuntu
+2. Domain name of a Server
+
+Installation:
+
+1. Download/install likewise-open
+2. Download/install likewise-open-gui
+3. Download/install windbind
+
+4. Open terminal and type
+
+sudo domainjoin-cli join "domain name' USER
+
+5. sudo domain-cli leave
+
+6. Open Likewise GUI interface and fill out the username and the domain name of the server that you would like to join.
+
+You should be ready use the active directories of the current server that you joined.
